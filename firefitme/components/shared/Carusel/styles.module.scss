@@ -1,0 +1,52 @@
+.cContainer {
+  min-width: 720px;
+  max-width: 100%;
+  width: 900px;
+  height: 100%;
+  border: 10px solid #fcfcfc;
+}
+
+.triplerWrapper {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.thirdCardContainer {
+  width: auto;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+
+.thirdCWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+  height: 420px;
+}
+
+.thirdImg {
+  min-height: 100%;
+  min-width: 100%;
+  flex-shrink: 0;
+}
+
+.postData {
+  bottom: 0;
+  width: 100%;
+  background-color: #0f0100;
+  color: white;
+  position: relative;
+  z-index: 999;
+}
+
+.thirdPostTitle {
+  margin: auto;
+  padding: 0 0.8rem;
+}
+
+.thirdPostPret {
+  margin: auto;
+  padding: 0.2rem 0.8rem;
+}
